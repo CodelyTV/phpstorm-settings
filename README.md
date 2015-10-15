@@ -11,7 +11,7 @@ Code and File Templates
 
 ### Example
 
-Class attributes example:
+#### Class attributes example:
 
 ```php
     /** @var Email */
@@ -30,7 +30,7 @@ Class attributes example:
     private $all_friends;
 ```
 
-Generated constructor:
+#### Generated constructor:
 
   * "a" / "an" prefix for simple variables
   * "some" -> "all" convention for arrays or Collections
@@ -53,7 +53,7 @@ Generated constructor:
     }
 ```
 
-Generated getter:
+#### Generated getter:
 
   * No "get" prefix
 
@@ -67,7 +67,7 @@ Generated getter:
     }
 ```
 
-Generated setter:
+#### Generated setter:
 
   * "a" / "an" prefix for simple variables
   * "some" -> "all" convention for arrays or Collections
